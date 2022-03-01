@@ -3,7 +3,7 @@ function called BinarySearch which takes in 2 parameters: a sorted array and the
 
 
 ## Whiteboard Process
-![The San Juan Mountains are beautiful!]( BinarySearch.png "San Juan Mountains")
+![The San Juan Mountains are beautiful!]( BinarrySearch.png "San Juan Mountains")
 
 ## Approach & Efficiency
 i write the problem , viow the algorathems and show my seluation by pseudcode , code and visual my soluation by Using the search algorithm to solve this problem took me 25 minutes
