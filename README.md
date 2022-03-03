@@ -2,3 +2,6 @@
 |  the code |  the titel | link  | 
 |-----------|------------|-------|
 01            | array-reverse| **[array-reverse](https://waelalqawasmi.github.io/data-structures-and-algorithms/java/Challenge01/REDME1)**
+02            | array-insert-shift| **[array-insert-shift](https://waelalqawasmi.github.io/data-structures-and-algorithms/java/Challenge02/REDME1)**
+03            |BinarySearch| **[BinarySearch](https://waelalqawasmi.github.io/data-structures-and-algorithms/java/Challenge03/REDME1)**
+04            | LinkLest| **[LinkLest](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/LinkLest)**
