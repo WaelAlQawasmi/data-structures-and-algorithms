@@ -17,7 +17,7 @@ adds a new node with the given new value immediately after the first node that h
 
 ## Approach & Efficiency
 i used the linked list data structuer , deuto the challenge based on it Big O => O(n)
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
 
 ## Solution
 crat new linked list add you can put item on it using append methode and you  and you can add befor and after any value wants
