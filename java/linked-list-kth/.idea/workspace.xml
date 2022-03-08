@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09701760-6eeb-4d4e-b4a9-8733f49b09f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/linked/list/kth/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/linked/list/kth/linkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="09701760-6eeb-4d4e-b4a9-8733f49b09f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
