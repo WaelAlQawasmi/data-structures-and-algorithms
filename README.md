@@ -7,5 +7,6 @@
 04            | LinkLest| **[LinkLest](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/LinkLest)**
 05         | linked-list-insertions| **[linked-list-insertions](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/linked-list-insertions)**
 06         |linked-list-kth| **[linked-list-kth](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/linked-list-kth)**
+07         |linked-list-zip| **[linked-list-zip](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/linked-list-zip)**
 
 
