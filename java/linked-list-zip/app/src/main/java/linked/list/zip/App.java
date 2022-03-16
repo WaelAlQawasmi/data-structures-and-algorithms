@@ -16,17 +16,20 @@ public class App {
         newNode1.add("3");
         newNode1.add("1");
         newNode1.add("7");
+        newNode1.add("9");
+        newNode1.add("10");
+//        newNode2.add("4");
+//        newNode2.add("9");
 
 
-        newNode2.add("4");
-        newNode2.add("9");
-
-
-
+//
+//
+       newNode1.printAll();
+       newNode1.reverse();
         newNode1.printAll();
-        newNode2.printAll();
-        System.out.println( "LP");
-    linkedList.zip(newNode1,newNode2).printAll();
+//        newNode2.printAll();
+//        System.out.println( "LP");
+//    linkedList.zip(newNode1,newNode2).printAll();
       //  System.out.println( "size"+newNode1.size);
     }
 }

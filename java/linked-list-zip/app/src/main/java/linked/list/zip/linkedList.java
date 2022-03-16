@@ -1,7 +1,6 @@
 package linked.list.zip;
 
 import static java.math.BigInteger.ONE;
-import static java.math.BigInteger.probablePrime;
 
 public class linkedList<T> {
     Node head;
@@ -54,7 +53,32 @@ counter++;
     }
 
 
-  public   void printAll(){
+
+    public   void reverse(){
+        int length=this.size;
+
+        int counter=0;
+        while (length!=0) {
+
+            counter++;
+
+            T temStart  = (T) Index(counter).value;
+            T temEnd  = (T) Index(length).value;
+
+            if(length==size/2){
+                break;
+            }
+           Index(counter).value=temEnd;
+            Index(length).value=temStart;
+
+            length--;
+        }
+
+
+    }
+
+
+    public   void printAll(){
 
         Node pointer=head;
         while (pointer!=null){
