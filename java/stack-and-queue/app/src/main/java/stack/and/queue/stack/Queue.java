@@ -30,7 +30,8 @@ public class Queue {
                    }
         else {
             if (size < QueueSize) {
-                newNode.setNext(back);
+                back.setNext(newNode);
+
                 back = newNode;
                 size++;
                           }
@@ -58,7 +59,8 @@ public class Queue {
         } else {
             frontTemp = front;
 
-            front = front.getNext(); // removes the first node
+            front = this.front.getNext(); // removes the first node
+            System.out.println(front);
         }
 
         return frontTemp.getValue();
@@ -70,12 +72,11 @@ public class Queue {
         Node pointer= this.front;
         String OUTPUT="";
         while (pointer!=null){
+
             OUTPUT+=pointer.getValue()+" =>";
             pointer=pointer.getNext();
         }
 
-        return "Queue{" +
-                 OUTPUT +
-                '}';
+        return "Queue{" + OUTPUT +'}';
     }
 }
