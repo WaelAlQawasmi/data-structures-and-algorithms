@@ -8,6 +8,6 @@
 05         | linked-list-insertions| **[linked-list-insertions](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/linked-list-insertions)**
 06         |linked-list-kth| **[linked-list-kth](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/linked-list-kth)**
 07         |linked-list-zip| **[linked-list-zip](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/linked-list-zip)**
-08         |stack-and-queue| **[stack-and-queue](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/stack-and-queue)**
-
+08         |stack and queue| **[stack-and-queue](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/stack-and-queue)**
+09         |stack-queue-pseudo| **[stack-queue-pseudo](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/stack-queue-pseudo)**
 
