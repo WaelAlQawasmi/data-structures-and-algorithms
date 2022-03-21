@@ -21,9 +21,9 @@ public class App {
         newstack.enqueue(newNode);
         newstack.enqueue(newNode2);
         newstack.enqueue(newNode3);
-
-        System.out.println(newstack);
 newstack.dequeue();
+        System.out.println(newstack);
+
         System.out.println(newstack);
     }
 }
