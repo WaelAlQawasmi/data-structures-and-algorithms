@@ -10,4 +10,5 @@
 07         |linked-list-zip| **[linked-list-zip](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/linked-list-zip)**
 08         |stack and queue| **[stack-and-queue](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/stack-and-queue)**
 09         |stack-queue-pseudo| **[stack-queue-pseudo](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/stack-queue-pseudo)**
+10        |stack-queue-animal-shelter| **[stack-queue-animal-shelter](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/stack-queue-animal-shelter)**
 
