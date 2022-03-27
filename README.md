@@ -12,5 +12,6 @@
 09         |stack-queue-pseudo| **[stack-queue-pseudo](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/stack-queue-pseudo)**
 10        |stack-queue-animal-shelter| **[stack-queue-animal-shelter](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/stack-queue-animal-shelter)**
 11       |stack-queue-brackets| **[stack-queue-brackets](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/stack-queue-brackets)**
+12       |max value in the Stake| **[maxstake](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/smaxstake)**
 
 
