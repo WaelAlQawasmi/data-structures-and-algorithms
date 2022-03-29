@@ -37,8 +37,10 @@ public class validation {
             openBracate.pop();
 
         }
-
+        if(openBracate.isEmpty())
         return true;
+        else
+            return false;
     }
 
 }

@@ -18,10 +18,11 @@ class LibraryTest {
         assertEquals(validation.validatebrackets("{(})"), false);
         assertEquals(validation.validatebrackets("{)"), false);
 
-        assertEquals(validation.validatebrackets("{"), false);
+        assertEquals(validation.validatebrackets("}"), false);
         assertEquals(validation.validatebrackets("("), false);
 
         assertEquals(validation.validatebrackets("{)"), false);
+        assertEquals(validation.validatebrackets(")"), false);
 
     }
 }
