@@ -13,6 +13,10 @@ public class Library {
 
 
     public static void main(String[] args) {
+         System.out.println(validation.validatebrackets("][[[][]]898]"));
+          System.out.println(validation.validatebrackets("][[[][]]898]"));
+           System.out.println(validation.validatebrackets("][[[][]]898]"));
+            System.out.println(validation.validatebrackets("][[[][]]898]"));
       System.out.println(validation.validatebrackets("][[[][]]]"));
         System.out.println(validation.validatebrackets("][[[][]]{]"));
         System.out.println(validation.validatebrackets("][[[][]]898]"));
