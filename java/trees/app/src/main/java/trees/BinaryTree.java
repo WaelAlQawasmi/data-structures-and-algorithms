@@ -34,6 +34,7 @@ System.out.println(treeNode.getData()); // root
         return  data ;
     }
 
+
     public  String[] preOrder(BTNode treeNode) {
         if (treeNode == null) {
             return null;
@@ -68,6 +69,8 @@ System.out.println(treeNode.getData()); // root
 return  data ;
 
     }
+
+
 
 
 
