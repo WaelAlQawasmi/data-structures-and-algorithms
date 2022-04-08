@@ -1,8 +1,14 @@
 package trees;
 
+import java.util.ArrayList;
+
 public class BinarySearchTree<T extends Comparable<T>> {
     private  Node<T> root;
     private int size;
+
+    public Node<T> getRoot() {
+        return root;
+    }
 
     public String insert(T data) {
         if (isTreeEmpty()) {
@@ -133,6 +139,36 @@ return false;
                 return true;
             }
             return false ;
+           }
+
+
+           ////////
+    ArrayList<Integer> sum=new ArrayList();
+
+
+    public int sumOdd(BinarySearchTree tree) {
+        inOrder(tree.getRoot());
+       int summation= sum.stream()
+                .mapToInt(Integer::intValue)
+                .sum();
+        ;
+
+return summation;
+
+    }
+
+           private void inOrder(Node<T> treeNode) {
+               if (treeNode == null) { // base case
+                   return;
+               }
+
+               inOrder(treeNode.getLeftNode()); // left
+        if((Integer) treeNode.getData()%2!=0){
+sum.add((Integer)treeNode.getData());
+        }
+
+
+               inOrder(treeNode.getRightNode()); // right
            }
 
 }
