@@ -1,0 +1,14 @@
+| i      | j>=0 && arr[j]             | arr                   | j | comment                                                                                                                                       |
+| ----------- |----------------------------|-----------------------| ----------- |-----------------------------------------------------------------------------------------------------------------------------------------------|
+|0| false                      | [8, 4, 23, 42, 16, 15] |-1| becouse the index of"8 " is zero the app not go throw while                                                                                   |
+|1| true                       | [8, 4, 23, 42, 16, 15] |-1| becouse j<0   not go throw while                                                                                                              |
+|1| false                      | [8, 4, 23, 42, 16, 15] |-1| becouse j<0   not go throw while                                                                                                              |
+|2| done at while              | [4, 8, 23, 42, 16, 15] |1| when the app arive to index 1 and comber 4 with all prvies item find 8 greter than the current (4) then put 8 in index of 4 and 4 in dex of 8 |
+|3| flase                      | [4, 8, 23, 42, 16, 15] |2| 23 is the grater                                                                                                                              |
+|4| true                       | [4, 8, 23, 42, 16, 15] |2| 42 is the grater so pass throw while                                                                                                          |
+|4| true                       | [4, 8, 23, 42, 16, 15] |1| 23 is the graterthan 16 so pass throw while                                                                                                   |
+|4| false                      | [4, 8, 23, 42, 16, 15] |1| 23 is the  graterthan 16 so pass throw while                                                                                                  |
+|5| done at while              | [4, 8, 16, 23, 42, 15] |3| change the postion of 16 with 23                                                                                                              |
+|5| true                       | [4, 8, 16, 23, 42, 15] |2| 16 is the grater than 15 so pass throw while                                                                                                  |
+|5| true                       | [4, 8, 16, 23, 42, 15] |1| 16 is the grater than 15 so pass throw while                                                                                                  |
+|5| done at while   and retern | [4, 8,15, 16, 23, 42] |1|change the postion of 16 with 23                                                                                                          |

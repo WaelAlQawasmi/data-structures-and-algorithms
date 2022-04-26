@@ -15,7 +15,10 @@ public class App {
 
     public static void main(String[] args) {
         Integer [] arr={8,4,23,42,16,15};
-      InsertionSort(arr);
+        List<Integer> list1 = new ArrayList<Integer>();
+        Collections.addAll(list1, InsertionSort(arr));
+        System.out.println( list1);
+     ;
 
 
     }
@@ -26,19 +29,20 @@ public class App {
         for (int i = 0; i < arr.length ; i++) {
             int j = i - 1;
             int temp = arr[i];
-
+            List<Integer> list1 = new ArrayList<Integer>();
+            Collections.addAll(list1, arr);
             while (j>=0 && arr[j] > temp){
                 arr[j + 1] = arr[j];
                 j=j - 1;
-                System.out.println("j>=0 && arr[j]= true");
-                System.out.println("j="+j+"\t arr[j + 1]="+arr[ j+1]+"   temp ="+temp +"\t");}
-
-           System.out.println("j>=0 && arr[j]= false");
+               // System.out.println("j>=0 && arr[j]= true");
+              //  Collections.addAll(list1, arr);
+             //   System.out.println("|"+i+"|true"+"|"+list1+"|"+j+"|");
+               // System.out.println("j="+j+"\t arr[j + 1]="+arr[ j+1]+"   temp ="+temp +"\t");
+                }
 
                 arr[j + 1] = temp ;
-           List<Integer> list1 = new ArrayList<Integer>();
-            Collections.addAll(list1, arr);
-            System.out.println("i= "+i+"\t arr="+list1);
+
+            //System.out.println("|"+i+"|false"+"|"+list1+"|"+j+"|");
         }
         return arr;
 
