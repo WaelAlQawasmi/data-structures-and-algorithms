@@ -20,18 +20,8 @@
 17    |tree-breadth-first| **[tree-breadth-first](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/tree-breadth-first)**
 18    |tree-fizz-buzz| **[tree-fizz-buzz](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/tree-fizz-buzz)**
 19     |sum-odd-b-tree| **[sum-odd-b-tree](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/sum-odd-b-tree)**
+20    |InsertionSort| **[InsertionSort](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/InsertionSort)**
 
 
 
 
-
-- # [x]  Summary, Description, Approach & Efficiency, Solution
-- [x] Top-level README “Table of Contents” is updated
-- [x] README for this challenge is complete
-- [x]  Picture of whiteboard
-- [x]  Link to code
-- [x]  Feature tasks for this challenge are completed
-- [x]  Unit tests written and passing
-- [x]  “Happy Path” - Expected outcome
-- [x]  Expected failure
-- [x]  Edge Case (if applicable/obvious)
