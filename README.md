@@ -22,6 +22,3 @@
 19     |sum-odd-b-tree| **[sum-odd-b-tree](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/sum-odd-b-tree)**
 20    |InsertionSort| **[InsertionSort](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/InsertionSort)**
 
-
-
-
