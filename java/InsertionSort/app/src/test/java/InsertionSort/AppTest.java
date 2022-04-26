@@ -7,8 +7,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
+    @Test void test() {
         App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+        Integer [] arr={8,4,23,42,16,15};
+        Integer [] arr2={4,8,15,16,23,42};
+        assertArrayEquals(App.InsertionSort(arr),arr2);
     }
 }

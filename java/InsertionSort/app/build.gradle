@@ -6,6 +6,7 @@
  * User Manual available at https://docs.gradle.org/7.4/userguide/building_java_projects.html
  */
 
+
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
@@ -29,7 +30,13 @@ application {
     mainClass = 'InsertionSort.App'
 }
 
-tasks.named('test') {
-    // Use JUnit Platform for unit tests.
+test {
     useJUnitPlatform()
 }
+tasks.named('test') {
+    useJUnitPlatform()
+}
+test {
+    useJUnitPlatform()
+}
+
