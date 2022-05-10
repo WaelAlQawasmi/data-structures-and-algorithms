@@ -15,11 +15,13 @@ public class App {
 
     public static void main(String[] args) {
 
-        int arr[] = {2,3,5,7,13,11};
-        System.out.println("Input->"+Arrays.toString( arr));
-        Mergesort(arr);
-
-
+       Integer arr[] = {10,15,5,7,13,11};
+//        System.out.println("Input->"+Arrays.toString( arr));
+//        Mergesort(arr);
+List<Integer> test=Arrays.asList(arr);
+//test.remove(10);
+        System.out.println(Arrays.toString(arr));
+     System.out.println(optap(test));
 
 
     }
@@ -91,6 +93,8 @@ public class App {
 
 
     }
+
+
 
 
 }
