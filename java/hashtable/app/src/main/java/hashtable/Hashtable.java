@@ -8,7 +8,7 @@ public class Hashtable<K, V> {
     private ArrayList<HashNode<K, V>> bucketArray;
     private int buckets;
     private int size;
-    List<K> keysList;
+    List<K> keysList=new ArrayList<K>();
 
     public int getSize() {
         return size;
@@ -44,7 +44,7 @@ public class Hashtable<K, V> {
     a unique array index to do inserts and
     lookups
      */
-    private int hash(K key) {
+    int hash(K key) {
         int hashCode = hashCode(key);
         int arrayIndex = hashCode % buckets;
         arrayIndex = arrayIndex < 0 ? arrayIndex * -1 : arrayIndex;
@@ -101,7 +101,7 @@ public class Hashtable<K, V> {
 
 
         while (head != null) {
-            if (head.getKey().equals(key) && head.hashCode() == keyHash)
+            if (head.getKey().equals(key))
                 return head.getValue();
             head = head.getNext();
         }
