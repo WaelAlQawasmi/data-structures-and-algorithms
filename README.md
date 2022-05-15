@@ -24,6 +24,6 @@
 21   |MergeSort| **[MergeSort](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/MergeSort)**
 22   |QuickSort| **[QuickSort](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/QuickSort)**
 23  |hashtable| **[hashtable](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/hashtable)**
-
+24  |repeatedWord| **[repeatedWord](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/repeatedWord)**
 
 
