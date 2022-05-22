@@ -26,4 +26,5 @@
 23  |hashtable| **[hashtable](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/hashtable)**
 24  |repeatedWord| **[repeatedWord](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/repeatedWord)**
 25  |tree-intersection| **[tree-intersection](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/tree-intersection)**
+26 |LeftJoin hashmap| **[LeftJoin](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/LeftJoin)**
 
