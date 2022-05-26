@@ -3,12 +3,13 @@ function called repeated word that finds the first word to occur more than once 
 
 
 ## Whiteboard Process
-![white](wh.png)
+![white](wh2.png)
 
 ## Approach & Efficiency
 ### Big O
 - Time->O(n)
 - space ->O(n)
+* where __n__ the number of input
 ## Solution
 
 - using hashMap to store the string and number of repetition
