@@ -9,7 +9,8 @@ function called repeated word that finds the first word to occur more than once 
 ### Big O
 - Time->O(n)
 - space ->O(n)
-* where __n__ the number of input
+* where __n__ the number of words in the input string
+* 
 ## Solution
 
 - using hashMap to store the string and number of repetition
