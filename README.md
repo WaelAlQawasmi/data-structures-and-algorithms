@@ -34,3 +34,4 @@ ALL problems
 30 |graphBusinessTrip | **[graphBusinessTrip](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/graphBusinessTrip)**
 31 |graph DepthFirstTraversal | **[graph DepthFirstTraversal](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/graph%20DepthFirstTraversal)**
 32 |graph representation  | **[graph representation](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/graph2D)**
+33 |Navigator  | **[Navigator](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/Navigator)**
