@@ -13,11 +13,14 @@ public class App {
     public static void main(String[] args) {
         BinaryTree binaryTree=new BinaryTree();
 
-//        binaryTree.setRoot(new BTNode("1"));
+       binaryTree.setRoot(new BTNode("root"));
 //
-//        binaryTree.getRoot().setLeft(new BTNode("a"));
+        binaryTree.getRoot().setLeft(new BTNode("2"));
 //
-//        binaryTree.getRoot().setRight(new BTNode("e"));
+        binaryTree.getRoot().setRight(new BTNode("3"));
+        binaryTree.getRoot().getLeft().setLeft(new BTNode("a"));
+        binaryTree.getRoot().getLeft().setRight(new BTNode("b"));
+        binaryTree.BFS(binaryTree.getRoot());
 //
 //        binaryTree.inOrder( binaryTree.getRoot());
 //
@@ -31,14 +34,14 @@ public class App {
 //        }
 
 
-        BinarySearchTree binarySearchTree=new BinarySearchTree();
-        binarySearchTree.insert(100);
-        binarySearchTree.insert(200);
-        binarySearchTree.insert(7);
-        binarySearchTree.insert(2);
-        binarySearchTree.insert(11);
-        binarySearchTree.insert(3);
-       System.out.println(binarySearchTree.sumOdd(binarySearchTree));
+//        BinarySearchTree binarySearchTree=new BinarySearchTree();
+//        binarySearchTree.insert(100);
+//        binarySearchTree.insert(200);
+//        binarySearchTree.insert(7);
+//        binarySearchTree.insert(2);
+//        binarySearchTree.insert(11);
+//        binarySearchTree.insert(3);
+//       System.out.println(binarySearchTree.sumOdd(binarySearchTree));
      //System.out.println( binarySearchTree.Contains(270));
 
     }

@@ -1,6 +1,8 @@
 package trees;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class BinaryTree<T extends Comparable<T>>  {
 
@@ -71,6 +73,20 @@ return  data ;
     }
 
 
+    public void BFS(BTNode root){
+        Queue<BTNode> queue=new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            BTNode temp=queue.poll();
+            System.out.println(temp.getData());
+            if(temp.getLeft()!=null){
+                queue.add(temp.getLeft());
+            }
+            if(temp.getLeft()!=null){
+                queue.add(temp.getRight());
+            }
+        }
+    }
 
 
 
