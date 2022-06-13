@@ -171,4 +171,12 @@ sum.add((Integer)treeNode.getData());
                inOrder(treeNode.getRightNode()); // right
            }
 
+
+           public void preOrder(Node<T> root){
+        if(root!=null){
+        System.out.println(root.getData());
+        preOrder(root.getLeftNode());
+               preOrder(root.getRightNode());
+           }}
+
 }

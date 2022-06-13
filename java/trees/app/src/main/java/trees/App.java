@@ -20,7 +20,7 @@ public class App {
         binaryTree.getRoot().setRight(new BTNode("3"));
         binaryTree.getRoot().getLeft().setLeft(new BTNode("a"));
         binaryTree.getRoot().getLeft().setRight(new BTNode("b"));
-        binaryTree.BFS(binaryTree.getRoot());
+//        binaryTree.BFS(binaryTree.getRoot());
 //
 //        binaryTree.inOrder( binaryTree.getRoot());
 //
@@ -34,13 +34,14 @@ public class App {
 //        }
 
 
-//        BinarySearchTree binarySearchTree=new BinarySearchTree();
-//        binarySearchTree.insert(100);
-//        binarySearchTree.insert(200);
-//        binarySearchTree.insert(7);
-//        binarySearchTree.insert(2);
-//        binarySearchTree.insert(11);
-//        binarySearchTree.insert(3);
+        BinarySearchTree binarySearchTree=new BinarySearchTree();
+        binarySearchTree.insert(100);
+        binarySearchTree.insert(200);
+        binarySearchTree.insert(7);
+        binarySearchTree.insert(2);
+        binarySearchTree.insert(11);
+        binarySearchTree.insert(3);
+        binarySearchTree.preOrder(binarySearchTree.getRoot());
 //       System.out.println(binarySearchTree.sumOdd(binarySearchTree));
      //System.out.println( binarySearchTree.Contains(270));
 

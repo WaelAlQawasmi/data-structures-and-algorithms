@@ -36,3 +36,4 @@ ALL problems
 32 |graph representation  | **[graph representation](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/graph2D)**
 33 |Navigator  | **[Navigator](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/Navigator)**
 34 |illegal character(url Sanitizer)  | **[Sanitizer](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/illegalCharacter)**
+35 |tree - Nodes Summation  | **[treeSum](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/treeNodsSum)**
