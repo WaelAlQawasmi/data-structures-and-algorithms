@@ -3,6 +3,10 @@
  */
 package illegalCharacter;
 
+import org.w3c.dom.Node;
+
+import java.util.LinkedList;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
@@ -10,18 +14,23 @@ public class App {
 
     public static void main(String[] args) {
         Sanitizer("http://code.org/hour of code.html");
+        LinkedList<String> X=new LinkedList<>();
+ X.add("T");
+ X.size();
     }
 
 
-public static String Sanitizer(String url)
-{
-String[]urlArr= url.split("");
-    for (int i = 0; i < urlArr.length; i++) {
-        if(urlArr[i].equals(" ")){
-            urlArr[i]="%20" ;
+    public static String Sanitizer(String url) {
+        String[] urlArr = url.split("");
+        for (int i = 0; i < urlArr.length; i++) {
+            if (urlArr[i].equals(" ")) {
+                urlArr[i] = "%20";
+            }
+
         }
-
+        return String.join("", urlArr);
     }
-return String.join("",urlArr);
-}
+
+
+
 }
