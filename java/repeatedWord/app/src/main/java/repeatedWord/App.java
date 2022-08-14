@@ -3,6 +3,7 @@
  */
 package repeatedWord;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Locale;
 
@@ -12,9 +13,26 @@ public class App {
     }
 
     public static void main(String[] args) {
+String word="java yuio";
+word.replace("yuio","mjkl");
+String []arr=word.split("");
+String str=String.valueOf(arr);
 
+        String name="sonoo";
+        String sf1=String.format("name is %d",25);
+        String sf2=String.format("value is %n",name);
+        String sf3=String.format("value is %s",32.33434);//returns 12 char fractional part filling with 0
 
-        System.out.println(repeatedWord("It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only..."));
+        System.out.println(sf1);
+        System.out.println(sf2);
+        System.out.println(sf3);
+
+        // String s=new String(arr);
+      //  System.out.println(str);
+      //  System.out.println(s);
+
+      //  System.out.println(word.charAt(1));
+     //   System.out.println(repeatedWord("It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only..."));
     }
 
     public static String repeatedWord(String input) {
