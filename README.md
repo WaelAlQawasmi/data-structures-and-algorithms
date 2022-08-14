@@ -41,3 +41,5 @@ ALL problems
 37 |Sum of Left Leaves  tree  | **[idelticalTree](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/Sum-of-Left-Leaves-tree)**
 38 |largest-THREE number  | **[largest-THREE number ](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/largest-THREEnumber)**
 39 |MostRepeatDigit  | **[MostRepeatDigit ](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/MostRepeatDigit)**
+40 |ArrayMutation  | **[ArrayMutation ](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/ArrayMutation)**
+41 |indexingArrayWord  | **[indexingArrayWord ](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/indexingArrayWord)**
