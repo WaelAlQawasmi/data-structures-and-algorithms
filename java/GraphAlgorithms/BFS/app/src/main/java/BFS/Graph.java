@@ -35,24 +35,51 @@ public class Graph {
         Queue<Integer> queue=new ArrayDeque<Integer>();
         visited.add(source);
         queue.add(source);
-
         while (!queue.isEmpty()){
-            Integer curentNode= queue.poll();
-
-            for (Integer nabgherhode:adj.get(curentNode)) {
-                if(nabgherhode==destination){
+            Integer currentNode= queue.poll();
+            for (Integer brotherhood:adj.get(currentNode)) {
+                if(brotherhood==destination){
                     return true;
                 }
-                if(!visited.contains(nabgherhode)){
-                    visited.add(nabgherhode);
-                    queue.offer(nabgherhode);
+                if(!visited.contains(brotherhood)){
+                    visited.add(brotherhood);
+                    queue.offer(brotherhood);
                 }
 
             }
         }
+        return false;
+    }
 
 
-return false;
+    public static Integer shortestPathBFS(Integer src, Integer dest,Map<Integer,List<Integer>>adj){
+        if( src== dest) return 0;
+        ArrayList<Integer> visited=new ArrayList<>();
+        Queue<int[]> queue=new ArrayDeque<>();
+
+        visited.add(src);
+        queue.offer(new int[]{src,0});
+
+        while (!queue.isEmpty()){
+            int [] Current=queue.poll();
+            int CurrentNode=Current[0];
+            int currentDistance=Current[1];
+            for (Integer brotherhood:adj.get(CurrentNode)) {
+                if (brotherhood== dest)
+                    return currentDistance+1;
+                if(!visited.contains(brotherhood)){
+
+                  visited.add(brotherhood);
+                  queue.offer(new int[]{brotherhood,currentDistance+1});
+
+                }
+
+            }
+
+
+        }
+        return  -1;
+
     }
 
 }
