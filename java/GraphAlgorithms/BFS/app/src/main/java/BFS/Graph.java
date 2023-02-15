@@ -14,13 +14,13 @@ public class Graph {
             System.out.println(currentNode);
             // Here we assume that if a neighbour has no neighbors, the adjacency map still maps to an empty list (i.e. not null)
 
-            for (Integer neighborhood:adj.get(currentNode)) {
+            for (Integer neighbour:adj.get(currentNode)) {
                 // For BFS, if a neighbour is already in the queue, there's no point in adding it again.
-                if(!visited.contains(neighborhood)){
+                if(!visited.contains(neighbour)){
                     // For BFS we mark as visited when we put a node in the queue.
 
-                    queue.offer(neighborhood);
-                    visited.add(neighborhood);
+                    queue.offer(neighbour);
+                    visited.add(neighbour);
 
                 }
                 
@@ -80,6 +80,32 @@ public class Graph {
         }
         return  -1;
 
+    }
+
+
+    public static boolean undirectedCycleCheckBFS(Integer src, Integer dest,Map<Integer,List<Integer>>adj){
+       Map<Integer,Integer> nodesToParents=new HashMap<>();
+       Queue<Integer>queue=new ArrayDeque<>();
+       queue.offer(src);
+       nodesToParents.put(src,src);
+       while (!queue.isEmpty()){
+           Integer currentNode= queue.poll();
+           for (Integer neighbour:adj.get(currentNode)) {
+
+
+                if(!nodesToParents.containsKey(neighbour)){
+                    nodesToParents.put(neighbour,currentNode);
+                    queue.offer(neighbour);
+                }
+               else {
+                   if(nodesToParents.get(currentNode) != neighbour){
+                       return true;
+                   }
+               }
+
+           }
+       }
+       return  false;
     }
 
 }
