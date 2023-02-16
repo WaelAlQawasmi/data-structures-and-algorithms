@@ -23,4 +23,18 @@ public class Graph {
         }
 
     }
+
+
+
+    public static void recursiveDFS(List<Integer>visited,Integer src,Map<Integer,List<Integer>>adj){
+        visited.add(src);
+
+        for (Integer nabers:adj.get(src)) {
+            if(!visited.contains(src)){
+                visited.add(nabers);
+                recursiveDFS(visited,nabers,adj);
+            }
+
+        }
+    }
 }
