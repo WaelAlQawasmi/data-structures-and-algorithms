@@ -79,4 +79,38 @@ public class Graph {
     }
 
 
+
+    private static void allPathsFromSourceToDestinationDFS(
+            Integer currentNode,
+            Integer destination,
+            List<Integer> currentPath,
+            Map<Integer, List<Integer>> adj,
+            Set<Integer> visited
+    ) {
+        currentPath.add(currentNode);
+        if(currentNode == destination){
+            // Print all nodes in the path found
+            for(Integer node : currentPath){
+                System.out.println(node);
+            }
+            // clean up and return
+            currentPath.remove(currentPath.size() - 1);
+            return;
+        }
+        visited.add(currentNode);
+
+        for (Integer neighbour : adj.get(currentNode)) {
+            if(!visited.contains(neighbour)){
+                allPathsFromSourceToDestinationDFS(neighbour, destination, currentPath, adj, visited);
+            }
+        }
+
+        // clean up and return
+        visited.remove(currentNode);
+        currentPath.remove(currentPath.size() - 1);
+        return;
+    }
+
+
+
 }
