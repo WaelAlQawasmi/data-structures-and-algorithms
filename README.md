@@ -46,4 +46,6 @@ ALL problems
 42 |Reciprocal Factorial  | **[Reciprocal factorial ](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/ReciprocalFactorial)**
 43 |Backtracking  | **[Backtracking ](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/Backtracking)**
 44 |TreeLeafPaths  | **[TreeLeafPaths ](https://github.com/WaelAlQawasmi/data-structures-and-algorithms/tree/main/java/TreeLeafPaths)**
-45 |two pointer  | **[TreeLeafPaths ](./java/twoPointer/)**
+45 |two pointer  | **[twoPointer ](./java/twoPointer/)**
+46 |k-diff-pairs-in-an-array  | **[k-diff-pairs-in-an-array ](./python/k-diff-pairs-in-an-array/)**
+45 |findTriplets  | **[findTriplets ](./python/findTriplets//)**
